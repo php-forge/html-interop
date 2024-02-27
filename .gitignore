@@ -22,3 +22,6 @@ phpunit.xlm
 
 # windows thumbnail cache
 Thumbs.db
+
+# vscode
+.vscode

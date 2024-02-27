@@ -19,7 +19,6 @@ return ECSConfig::configure()
     ->withPaths(
         [
             __DIR__ . '/src',
-            __DIR__ . '/tests',
         ],
     )
     ->withPhpCsFixerSets(perCS20: true)
