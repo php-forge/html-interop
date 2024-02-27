@@ -11,9 +11,6 @@
     <a href="https://github.com/php-forge/html-interop/actions/workflows/static.yml" target="_blank">
         <img src="https://github.com/php-forge/html-interop/actions/workflows/static.yml/badge.svg" alt="Psalm">
     </a>
-    <a href="https://shepherd.dev/github/php-forge/html-interop" target="_blank">
-        <img src="https://shepherd.dev/github/php-forge/html-interop/coverage.svg" alt="Psalm Coverage">
-    </a>
     <a href="https://github.styleci.io/repos/764140115?branch=main">
         <img src="https://github.styleci.io/repos/764140115/shield?branch=main" alt="Style ci">
     </a>        
