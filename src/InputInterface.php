@@ -7,8 +7,17 @@ namespace PHPForge\Html\Interop;
 /**
  * Provide methods for handling HTML input-related attributes.
  */
-interface InputInterface
+interface InputInterface extends RenderInterface
 {
+    /**
+     * Set the `HTML` attributes.
+     *
+     * @param array $values Attribute values indexed by attribute names.
+     *
+     * @return static A new instance of the current class with the specified attributes.
+     */
+    public function attributes(array $values): static;
+
     /**
      * Set the `CSS` `HTML` class attribute.
      *
@@ -20,15 +29,6 @@ interface InputInterface
      * @link https://html.spec.whatwg.org/#classes
      */
     public function class(string $value, bool $override = false): static;
-
-    /**
-     * Set the `HTML` attributes.
-     *
-     * @param array $values Attribute values indexed by attribute names.
-     *
-     * @return static A new instance of the current class with the specified attributes.
-     */
-    public function attributes(array $values): static;
 
     /**
      * Generate the id and name attributes for the field.
