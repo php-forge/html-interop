@@ -1,6 +1,6 @@
 # Change Log
 
-# 0.2.0 February 29, 2024
+## 0.2.0 February 29, 2024
 
 - Enh #3: Implement interface `RenderInterface::class` (@terabytesoftw)
 - Enh #4: Add interface `ContentInterface::class` and `LabelInterface::class` (@terabytesoftw)
