@@ -31,15 +31,14 @@ interface InputInterface extends RenderInterface
     public function class(string $value, bool $override = false): static;
 
     /**
-     * Generate the id and name attributes for the field.
+     * Generate the id and name attributes for the input field.
      *
-     * @param string $formModel The name of the model.
-     * @param string $property The name of the property.
-     * @param bool $arrayable Whether the field is arrayable.
+     * @param string $formModel The form model name.
+     * @param string $property The property name.
      *
      * @return static A new instance or clone of the current object with the id and name attributes set.
      */
-    public function fieldAttributes(string $formModel, string $property, bool $arrayable = false): static;
+    public function fieldAttributes(string $formModel, string $property): static;
 
     /**
      * Set the ID of the widget.
