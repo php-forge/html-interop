@@ -1,6 +1,8 @@
 # Change Log
 
-## 0.2.1 Under development
+## 0.3.0 Under development
+
+- Bug #7: Rename `notLabel()` to `disableLabel()` method in `LabelInterface::class` (@terabytesoftw)
 
 ## 0.2.0 February 29, 2024
 

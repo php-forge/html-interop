@@ -10,6 +10,13 @@ namespace PHPForge\Html\Interop;
 interface LabelInterface
 {
     /**
+     * Disable the label.
+     *
+     * @return static A new instance or clone of the current object with the label disabled.
+     */
+    public function disableLabel(): static;
+
+    /**
      * Set the current instance as being enclosed by a label.
      *
      * @param bool $value The value to set.
@@ -54,11 +61,4 @@ interface LabelInterface
      * @return static A new instance of the current class with the specified label `for` attribute.
      */
     public function labelFor(string|null $value): static;
-
-    /**
-     * Disable the label rendering.
-     *
-     * @return static A new instance of the current class with the label disabled.
-     */
-    public function notLabel(): static;
 }
