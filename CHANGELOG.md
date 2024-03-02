@@ -3,7 +3,7 @@
 ## 0.3.0 March 2, 2024
 
 - Bug #7: Rename `notLabel()` to `disableLabel()` method in `LabelInterface::class` (@terabytesoftw)
-- Bug #8: Update branch alias in `composer.json` (@terabytesoftw)
+- Bug #9: Update branch-alias to 0.3-dev in `composer.json` (@terabytesoftw)
 
 ## 0.2.0 February 29, 2024
 
